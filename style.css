@@ -1,0 +1,117 @@
+h1 {
+		text-align: center;
+	}
+#img1{
+		width: 190px;
+		height: 190px;
+		background: url(./image/b.png) -140px -30px no-repeat;
+		background-size: 420px auto;
+		border-radius: 50%;
+		position: absolute;
+		bottom:  0;
+		right:  0;
+		z-index: 1;
+	}
+#img2 {
+		width: 350px;
+		height: 350px;
+		border-radius: 50%;
+		background: url(./image/a.png) -100px -5px no-repeat;
+		position: absolute;
+		bottom:  50px;
+		right:  90px;
+	}
+#img3 {
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		background: url(./image/c.png) no-repeat;
+		background-size: cover;
+		position: absolute;
+		bottom: 300px;
+		right: 57px;
+		z-index: -1;
+	}
+#img4 {
+		width: 125px;
+		height: 105px;
+		background-image: url(./image/flag.png);
+		position: absolute;
+		bottom: 370px;
+		right: 120px;
+		}
+	#block1 {
+		height: 310px;
+		width: 590px;
+	}
+	#block2 {
+		height: 400px;
+		width: 440px;
+		margin-left: 70px;
+		position: relative;
+	}
+	a {
+		color: blue;
+	}
+@media only screen and (min-width: 640px) {
+
+	body {
+		height: 685px;
+		width: 1280px;
+	}
+	
+	img {
+		margin-left: 60px;
+		margin-right: 115px;
+	}
+	main {
+		display: flex;
+		margin: 40px 115px 40px 60px;
+	}
+	
+}
+@media only screen and (max-width: 640px) {
+	body {
+		margin-left: 25px;
+		margin-right: 25px;
+		height: 1050px;
+		width: 640px;
+	}
+	img {
+		width: 590px;
+		margin: 40px 25px 0 25px;
+	}
+		#block1 {
+		position: relative;
+		width: 640px;
+		top: 450px;
+		left: 0;
+	}
+	#block2 {
+		position: relative;
+		width: 640px;
+		top: -290px;
+		right: 140px;
+	}
+	.line {
+		position: relative;
+		bottom: -120px;
+		right: 0;
+	}
+	h3 {
+		font-family: Arial;
+		font-size: 36px;
+		text-align: center;
+		margin-bottom: 0;
+	}
+	#paragraf {
+		height: 270px;
+		width: 590px;
+		font-size: 25px;
+		border:1px solid red;
+		text-align: center;
+		overflow: hidden;
+	}
+
+}
+
